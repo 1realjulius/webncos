@@ -1,11 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import ComingSoon from '../components/ComingSoon'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 font-ApercuMedium">
+    <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
       <title>Webncos</title>
         <meta name="description" content="Website and Software Development Agency." />
@@ -24,7 +23,12 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#f7f2f2"   media="(prefers-color-scheme: light)"/>
         <meta name="theme-color" content="#090c10"   media="(prefers-color-scheme: dark)"/>
       </Head>
-      <ComingSoon/>
+      <div className='flex flex-col items-center justify-center'>
+        <div>
+          <h1 className='text-3xl'>Page Coming Soon</h1>
+        </div>
+        <div>Official Project of Julius Eghan (iamjulius)</div>
+      </div>
 
     </div>
   )

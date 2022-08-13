@@ -5,7 +5,7 @@ import ComingSoon from '../components/ComingSoon'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 font-ApercuMedium">
+    <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
       <title>Webncos</title>
         <meta name="description" content="Website and Software Development Agency." />
