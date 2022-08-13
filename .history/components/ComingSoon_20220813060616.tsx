@@ -33,12 +33,12 @@ const ComingSoon = () => {
         </div>
         <div>
           <p className="flex flex-row text-sm my-4 text-gray-600">
-            <span className="flex flex-row items-center">
+            <span className="flex flex-row">
             <span>© 2022 Made with{" "}</span>
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 mx-1"
+                  className="h-4 w-4"
                   viewBox="0 0 20 20"
                   fill="red"
                 >

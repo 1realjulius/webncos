@@ -33,20 +33,23 @@ const ComingSoon = () => {
         </div>
         <div>
           <p className="flex flex-row text-sm my-4 text-gray-600">
-            <span className="flex flex-row items-center">
-            <span>© 2022 Made with{" "}</span>
+            <span>
+              © 2022 Made with{" "}
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 mx-1"
-                  viewBox="0 0 20 20"
-                  fill="red"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className=""
+                  data-src="assets/img/icons/interface/heart.svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
-                    fill-rule="evenodd"
-                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                    clip-rule="evenodd"
-                  />
+                    d="M16.5 5C14.8905 5 13.0082 6.82463 12 8C10.9918 6.82463 9.1095 5 7.5 5C4.651 5 3 7.22218 3 10.0504C3 13.1835 6 16.5 12 20C18 16.5 21 13.25 21 10.25C21 7.42177 19.349 5 16.5 5Z"
+                    fill="#212529"
+                  ></path>
                 </svg>
               </span>{" "}
               by
