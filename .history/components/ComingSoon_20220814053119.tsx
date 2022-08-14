@@ -5,13 +5,13 @@ import React from "react";
 const ComingSoon = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center md:p-8 p-6">
-      <div className="flex flex-col items-center justify-center my-6">
-        <h1 className="text-gray-600">Hey, there 👋</h1>
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="">Hey, there 👋</h1>
       </div>
-      <div className="flex flex-col items-center justify-center my-4">
+      <div className="flex flex-col items-center justify-center">
         <h1 className="text-3xl leading-none">Coming Soon</h1>
       </div>
-      <div className="flex flex-col items-center justify-center my-6">
+      <div className="flex flex-col items-center justify-center mb-6">
         <div>
           <h1 className="text-base leading-none flex flex-row items-center">
             <span>

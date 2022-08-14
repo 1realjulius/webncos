@@ -4,14 +4,14 @@ import React from "react";
 
 const ComingSoon = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center md:p-8 p-6">
-      <div className="flex flex-col items-center justify-center my-6">
-        <h1 className="text-gray-600">Hey, there 👋</h1>
+    <div className="min-h-screen flex flex-col items-center justify-between md:p-8 p-6">
+      <div className="flex flex-col items-center justify-center pt-16">
+        <h1 className="">Hey, there 👋</h1>
       </div>
-      <div className="flex flex-col items-center justify-center my-4">
+      <div className="flex flex-col items-center justify-center">
         <h1 className="text-3xl leading-none">Coming Soon</h1>
       </div>
-      <div className="flex flex-col items-center justify-center my-6">
+      <div className="flex flex-col items-center justify-center mb-6">
         <div>
           <h1 className="text-base leading-none flex flex-row items-center">
             <span>
@@ -22,6 +22,11 @@ const ComingSoon = () => {
                   d="M8 6C6.89543 6 6 6.89543 6 8V16C6 17.1046 6.89543 18 8 18H10.5C11.0523 18 11.5 17.5523 11.5 17V12C11.5 10.6193 12.6193 9.5 14 9.5H18V8C18 6.89543 17.1046 6 16 6H8ZM7.25 8C7.25 7.58579 7.58579 7.25 8 7.25H8.01C8.42421 7.25 8.76 7.58579 8.76 8C8.76 8.41421 8.42421 8.75 8.01 8.75H8C7.58579 8.75 7.25 8.41421 7.25 8ZM10 7.25C9.58579 7.25 9.25 7.58579 9.25 8C9.25 8.41421 9.58579 8.75 10 8.75H10.01C10.4242 8.75 10.76 8.41421 10.76 8C10.76 7.58579 10.4242 7.25 10.01 7.25H10Z"
                   fill="#E879F9"
                   className="fill-blue-500 "
+                ></path>
+                <path
+                  d="M13 12C13 11.4477 13.4477 11 14 11H17C17.5523 11 18 11.4477 18 12V17C18 17.5523 17.5523 18 17 18H14C13.4477 18 13 17.5523 13 17V12Z"
+                  fill="#F0ABFC"
+                  className="fill-blue-600 "
                 ></path>
                 <path
                   d="M13 12C13 11.4477 13.4477 11 14 11H17C17.5523 11 18 11.4477 18 12V17C18 17.5523 17.5523 18 17 18H14C13.4477 18 13 17.5523 13 17V12Z"
