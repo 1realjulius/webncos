@@ -21,8 +21,8 @@ const Home: NextPage = () => {
         {/* <meta property="twitter:image" content="/Assets/Julius_Eghan.jpg"/> */}
         <link rel="icon" href="/favicon.ico" />
         {/* <meta name="google-site-verification" content="0HesePHVymRqGiL70HUKPIq0Zsap0uUIb_Ci0DpImRY" /> */}
-        <meta name="theme-color" content="#f7f2f2"   media="(prefers-color-scheme: light)"/>
-        <meta name="theme-color" content="#090c10"   media="(prefers-color-scheme: dark)"/>
+        <meta name="theme-color" content="#2563eb"   media="(prefers-color-scheme: light)"/>
+        <meta name="theme-color" content="#2563eb"   media="(prefers-color-scheme: dark)"/>
       </Head>
       <ComingSoon/>
 
