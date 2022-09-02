@@ -8,15 +8,15 @@ const MainHome = () => {
   return (
     <div className="flex flex-col max-w-8xl font-Parcel">
       {/* header */}
-      <div className="md:my-2 min-h-screen items-center justify-center flex flex-col font-Parcel">
+      <div className="md:my-2 min-h-screen items-center justify-center flex flex-col">
         <div className=" flex flex-col items-center justify-center">
           <div className="pt-4 pb-2">
-            <h1 className="text-6xl md:text-9xl text-center px-2 font-Parcel">
+            <h1 className="text-6xl md:text-9xl text-center px-2">
               ESTABLISH YOUR BRAND AWARENESS,
             </h1>
           </div>
           <div className="">
-            <h2 className="text-2xl md:text-4xl px-2 py-2 font-Parcel">
+            <h2 className="text-2xl md:text-4xl px-2 py-2">
               GET YOUR WEBSITE TO SPEAK FOR YOUR BRAND.
             </h2>
           </div>

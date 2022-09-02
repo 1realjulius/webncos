@@ -11,7 +11,7 @@ const MainHome = () => {
       <div className="md:my-2 min-h-screen items-center justify-center flex flex-col font-Parcel">
         <div className=" flex flex-col items-center justify-center">
           <div className="pt-4 pb-2">
-            <h1 className="text-6xl md:text-9xl text-center px-2 font-Parcel">
+            <h1 className="text-6xl md:text-9xl text-center px-2">
               ESTABLISH YOUR BRAND AWARENESS,
             </h1>
           </div>
