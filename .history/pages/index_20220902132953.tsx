@@ -6,7 +6,7 @@ import NavigationBar from "../components/NavigationBar";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen font-Parcel flex-col bg-blue-200">
+    <div className="flex min-h-screen flex-col  bg-blue-200">
       <Head>
         <title>Webncos</title>
         <meta

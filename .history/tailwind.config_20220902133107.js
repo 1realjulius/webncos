@@ -14,7 +14,7 @@ module.exports = {
         circularBold: 'circularBold, sans',
         circularBook: 'circularBook, sans',
         circularMedium: 'circularMedium, sans',
-        Parcel: 'Parcel, Parcel',
+        Parcel: 'Parcel, sans',
       },
     },
   },

@@ -16,7 +16,7 @@ const MainHome = () => {
             </h1>
           </div>
           <div className="">
-            <h2 className="text-2xl md:text-4xl px-2 py-2">
+            <h2 className="text-2xl md:text-4xl font-parcel px-2 py-2">
               GET YOUR WEBSITE TO SPEAK FOR YOUR BRAND.
             </h2>
           </div>
