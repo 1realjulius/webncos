@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+      @font-face{
+        font-family: 'ApercuBold';
+        src: url("/Fonts/ApercuPro-Bold.woff") format("woff"),url("/Fonts/ApercuPro-Bold.woff2") format("woff2");
+      }
+      @font-face{
+        font-family: 'ApercuMedium';
+        src: url("/Fonts/ApercuPro-Medium.woff") format("woff"),url("/Fonts/ApercuPro-Medium.woff2") format("woff2");
+      }
+      @font-face{
+        font-family: 'circularBlack';
+        src: url("/Fonts/circular-black.woff2") format("woff2");
+      }
+      @font-face{
+        font-family: 'circularBold';
+        src: url("/Fonts/circular-bold.woff2") format("woff2");
+      }
+      @font-face{
+        font-family: 'circularBook';
+        src: url("/Fonts/circular-book.woff2") format("woff2");
+      }
+      @font-face{
+        font-family: 'circularMedium';
+        src: url("/Fonts/circular-medium.woff2") format("woff2");
+      }
+    }
