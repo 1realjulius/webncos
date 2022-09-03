@@ -8,10 +8,9 @@ const MainHome = () => {
   return (
     <div className="flex flex-col max-w-8xl font-Parcel">
       {/* coming soon */}
-      <div className="flex flex-row items-center justify-center">
-        <div className="m-[180px]">
+      <div className="flex flex-col items-center justify-center">
+        <div className="">
           <h1 className="text-6xl">Coming Soon</h1>
-          <h3>Stay Tuned..</h3>
         </div>
       </div>
       {/* header */}

@@ -11,7 +11,6 @@ const MainHome = () => {
       <div className="flex flex-row items-center justify-center">
         <div className="m-[180px]">
           <h1 className="text-6xl">Coming Soon</h1>
-          <h3>Stay Tuned..</h3>
         </div>
       </div>
       {/* header */}
