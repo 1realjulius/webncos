@@ -1,12 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import ComingSoon from "../components/ComingSoon";
 import MainHome from "../components/MainHome";
 import NavigationBar from "../components/NavigationBar";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen font-DosisRegular flex-col bg-blue-200">
+    <div className="flex min-h-screen font-circularBook flex-col bg-blue-200">
       <Head>
         <title>Webncos</title>
         <meta
@@ -66,7 +65,7 @@ const Home: NextPage = () => {
         />
       </Head>
       <NavigationBar />
-      <ComingSoon/>
+      <MainHome />
     </div>
   );
 };

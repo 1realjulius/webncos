@@ -32,7 +32,7 @@ export default function NavigationBar() {
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8"></div>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
-                {/* <a
+                <a
                   href="#"
                   className="text-gray-500 text-lg hover:text-gray-900 inline-flex items-center px-3 pt-1 "
                 >
@@ -55,7 +55,7 @@ export default function NavigationBar() {
                   className=" text-gray-500 hover:text-gray-900 inline-flex items-center px-3 pt-1  text-lg"
                 >
                   About Us
-                </a> */}
+                </a>
                 <Link href="#">
                   <div className="px-4 py-1 bg-blue-100 active:bg-blue-300 rounded-md cursor-pointer">
                     <h2 className="text-blue-800 text-lg">Coming Soon</h2>

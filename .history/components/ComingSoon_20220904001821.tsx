@@ -7,10 +7,7 @@ const ComingSoon = () => {
     <div className="flex flex-col items-center justify-center">
       <div className="max-w-7xl min-h-screen flex flex-col items-center justify-center">
         <div className="p-4 text-center">
-          <div className="m-2">
-            <span className="text-base text-blue-500">Coming Soon</span>
-          </div>
-          <h1 className="font-DosisSemiBold text-5xl md:text-7xl md:my-10 my-6">
+          <h1 className="font-DosisSemiBold text-5xl md:text-7xl md:my-10 my-10">
             We Build Brands, We Create Change.
           </h1>
           <h3 className="font-DosisMedium text-lg md:text-2xl mb-4">

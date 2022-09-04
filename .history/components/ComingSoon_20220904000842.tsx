@@ -5,22 +5,19 @@ import React from "react";
 const ComingSoon = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="max-w-7xl min-h-screen flex flex-col items-center justify-center">
+      <div className="max-w-7xl min-h-screen">
         <div className="p-4 text-center">
-          <div className="m-2">
-            <span className="text-base text-blue-500">Coming Soon</span>
-          </div>
-          <h1 className="font-DosisSemiBold text-5xl md:text-7xl md:my-10 my-6">
+          <h1 className="font-DosisSemiBold text-4xl">
             We Build Brands, We Create Change.
           </h1>
-          <h3 className="font-DosisMedium text-lg md:text-2xl mb-4">
+          <h3 className="font-DosisMedium">
             We Are A Group Of Freelance Developers And Graphic Designers That
             Help Create Change in The World.
           </h3>
         </div>
-        <div className="flex flex-col items-center">
-          <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together at Webncos Agency 💰">
-            <div className="flex flex-row items-center space-x-2 bg-white px-3 py-2 rounded-lg active:bg-blue-200 cursor-pointer">
+        <div>
+          <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together 💰">
+            <div className="flex flex-row items-center space-x-2">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +34,7 @@ const ComingSoon = () => {
                   />
                 </svg>
               </span>
-              <span className="font-DosisSemiBold leading-none">Work With Us</span>
+              <span className="font-DosisMedium">Work With Us</span>
             </div>
           </Link>
         </div>
