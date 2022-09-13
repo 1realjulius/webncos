@@ -1,13 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import ComingSoon from "../components/ComingSoon";
 import MainHome from "../components/MainHome";
 import NavigationBar from "../components/NavigationBar";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen  font-ShpockMabryRegular flex-col bg-black">
+    <div className="flex min-h-screen  flex-col bg-black">
       <Head>
         <title>Webncos</title>
         <meta

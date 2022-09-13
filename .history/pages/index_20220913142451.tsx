@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import ComingSoon from "../components/ComingSoon";
 import MainHome from "../components/MainHome";
 import NavigationBar from "../components/NavigationBar";

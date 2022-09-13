@@ -7,41 +7,21 @@ const ComingSoon = () => {
     <div className="flex flex-col items-center justify-center text-black bg-slate-50">
       <div className="relative max-w-7xl min-h-screen flex flex-col items-center justify-center">
         {/* The link to my portfolio page */}
-        <div className="absolute bottom-6">
+        <div className="absolute bottom-2">
           <Link href="https://www.iamjulius.com/">
-            <div className="flex flex-row items-center space-x-2 shadow-md px-3 py-1 rounded-full cursor-pointer group">
-              <span className="text-gray-400 group-hover:text-black">
-                {" "}
-                Made with
-              </span>
+            <div className="flex flex-row items-center space-x-2 shadow-md px-3 py-1 rounded-full">
+              <span> Made with</span>
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  className="w-4 h-4 text-red-600"
+                  className="w-5 h-5"
                 >
                   <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z" />
                 </svg>
               </span>
-              <span className="text-gray-400 group-hover:text-black">by</span>
-              <h1 className="flex flex-row items-center text-blue-300 group-hover:text-blue-600">
-                <span>Julius Eghan</span>
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </h1>
+              <span>By Julius Eghan</span>
             </div>
           </Link>
         </div>
@@ -81,7 +61,7 @@ const ComingSoon = () => {
           </h3>
         </div>
         <div className="flex flex-col items-center">
-          <Link href="mailto:iamjuliusbusiness@gmail.com?subject=I want a professioonal Website 💻">
+          <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together at Webncos Agency 💰">
             <div className="flex flex-row items-center space-x-2 py-2 text-blue-600 cursor-pointer">
               <span className="leading-none font-ShpockMabryBold text-base">
                 Contact Us

@@ -9,7 +9,6 @@ module.exports = {
     extend: {
       fontFamily: {
         ShpockMabryBold: 'ShpockMabryBold, sans-serif',
-        ShpockMabryRegular: 'ShpockMabryRegular, sans-serif',
       },
     },
   },

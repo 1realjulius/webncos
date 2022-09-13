@@ -4,11 +4,11 @@
 
 @layer base {
   @font-face {
-    font-family: "ShpockMabryBold";
+    font-family: "ShpockMabry-Bold";
     src: url("/Fonts/ShpockMabry-Bold.woff2") format("woff2");
   }
   @font-face {
-    font-family: "ShpockMabryRegular";
+    font-family: "ShpockMabry-Regular";
     src: url("/Fonts/ShpockMabry-Regular.woff2") format("woff2");
   }
 }

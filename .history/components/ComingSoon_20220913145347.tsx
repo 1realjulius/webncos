@@ -25,23 +25,23 @@ const ComingSoon = () => {
                 </svg>
               </span>
               <span className="text-gray-400 group-hover:text-black">by</span>
-              <h1 className="flex flex-row items-center text-blue-300 group-hover:text-blue-600">
-                <span>Julius Eghan</span>
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </h1>
+              <span className="text-blue-300 group-hover:text-blue-600">
+                Julius Eghan
+              </span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </span>
             </div>
           </Link>
         </div>
@@ -81,7 +81,7 @@ const ComingSoon = () => {
           </h3>
         </div>
         <div className="flex flex-col items-center">
-          <Link href="mailto:iamjuliusbusiness@gmail.com?subject=I want a professioonal Website 💻">
+          <Link href="mailto:iamjuliusbusiness@gmail.com?subject=Let's work together at Webncos Agency 💰">
             <div className="flex flex-row items-center space-x-2 py-2 text-blue-600 cursor-pointer">
               <span className="leading-none font-ShpockMabryBold text-base">
                 Contact Us
