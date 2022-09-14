@@ -9,7 +9,7 @@ const ComingSoon = () => {
         {/* The link to my portfolio page */}
         <div className="absolute bottom-6">
           <Link href="https://www.iamjulius.com/">
-            <div className="flex flex-row items-center space-x-2 shadow-md px-3 py-1 rounded-full cursor-pointer group bg-white">
+            <div className="flex flex-row items-center space-x-2 shadow-md px-3 py-1 rounded-full cursor-pointer group ">
               <span className="text-gray-400 group-hover:text-black hover:transition duration-500">
                 {" "}
                 Made with
@@ -27,7 +27,7 @@ const ComingSoon = () => {
               <span className="text-gray-400 group-hover:text-black hover:transition duration-500">
                 by
               </span>
-              <h1 className="flex flex-row items-center text-blue-300 group-hover:text-blue-600 hover:transition duration-500">
+              <h1 className="flex flex-row font-ShpockMabryBold items-center text-blue-300 group-hover:text-blue-600 hover:transition duration-500">
                 <span>Julius Eghan</span>
                 <span>
                   <svg

@@ -9,8 +9,8 @@ const ComingSoon = () => {
         {/* The link to my portfolio page */}
         <div className="absolute bottom-6">
           <Link href="https://www.iamjulius.com/">
-            <div className="flex flex-row items-center space-x-2 shadow-md px-3 py-1 rounded-full cursor-pointer group bg-white">
-              <span className="text-gray-400 group-hover:text-black hover:transition duration-500">
+            <div className="flex flex-row items-center space-x-2 shadow-md px-3 py-1 rounded-full cursor-pointer group">
+              <span className="text-gray-400 group-hover:text-black">
                 {" "}
                 Made with
               </span>
@@ -24,10 +24,8 @@ const ComingSoon = () => {
                   <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z" />
                 </svg>
               </span>
-              <span className="text-gray-400 group-hover:text-black hover:transition duration-500">
-                by
-              </span>
-              <h1 className="flex flex-row items-center text-blue-300 group-hover:text-blue-600 hover:transition duration-500">
+              <span className="text-gray-400 group-hover:text-black">by</span>
+              <h1 className="flex flex-row items-center text-blue-300 group-hover:text-blue-600">
                 <span>Julius Eghan</span>
                 <span>
                   <svg
@@ -84,8 +82,8 @@ const ComingSoon = () => {
         </div>
         <div className="flex flex-col items-center">
           <Link href="mailto:iamjuliusbusiness@gmail.com?subject=I want a professioonal Website 💻">
-            <h1 className="flex flex-row items-center space-x-2 py-2 text-blue-600 hover:text-blue-400 hover:transition duration-500 cursor-pointer">
-              <span className="leading-none font-ShpockMabryBold text-base">
+            <div className="flex flex-row items-center space-x-2 py-2 text-blue-600 cursor-pointer">
+              <span className="leading-none font-ShpockMabryBold text-base transition duration-300 ease-in-out">
                 Contact Us
               </span>
               <span>
@@ -102,7 +100,7 @@ const ComingSoon = () => {
                   />
                 </svg>
               </span>
-            </h1>
+            </div>
           </Link>
         </div>
       </div>
