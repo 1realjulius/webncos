@@ -83,7 +83,7 @@ const ComingSoon = () => {
           </h3>
         </div>
         <div className="flex flex-col items-center">
-          <Link href="mailto:support@webncos.com?cc=iamjuliusbusiness@gmail.com&subject=I want a professioonal Website 💻">
+          <Link href="mailto:iamjuliusbusiness@gmail.com?bcc:support@webncos.com?subject=I want a professioonal Website 💻">
             <h1 className="flex flex-row items-center space-x-2 py-2 text-blue-600 hover:text-blue-400 hover:transition duration-500 cursor-pointer">
               <span className="leading-none font-ShpockMabryBold text-base">
                 Contact Us
