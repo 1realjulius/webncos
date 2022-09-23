@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <title>Webncos Agency</title>
         <meta
           name="description"
-          content="Professional Website Development And Management Agency."
+          content="Webncos — Professional Website Development And Management Agency."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.webncos.com/" />
@@ -22,9 +22,9 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:description"
-          content="Professional Website Development And Management Agency."
+          content="Webncos — Professional Website Development And Management Agency."
         />
-        <meta property="og:image" content="/Assets/wLogo.png" />
+        <meta property="og:image" content="/Assets/webncos-og-img-lg.png" />
         <meta property="twitter:card" content="/Assets/webncos-og-img-lg.png" />
         <meta property="twitter:url" content="https://www.webncos.com/" />
         <meta
