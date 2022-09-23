@@ -47,16 +47,15 @@ const ComingSoon = () => {
             </div>
           </Link>
         </div>
-        <div className="p-4 text-center flex flex-col items-center justify-center">
-          <div className="relative w-36 h-10">
+        <div className="p-4 text-center">
+          <div>
             <Link href="#">
               <Image
                 src="/Assets/webncos-logo-lg.svg"
-                // width={100}
-                // height={22}
-                layout="fill"
+                width={100}
+                height={22}
                 alt="webncos logo"
-                className="absolute object-contain"
+                className=""
               />
             </Link>
           </div>

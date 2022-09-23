@@ -47,8 +47,8 @@ const ComingSoon = () => {
             </div>
           </Link>
         </div>
-        <div className="p-4 text-center flex flex-col items-center justify-center">
-          <div className="relative w-36 h-10">
+        <div className="p-4 text-center">
+          <div className="relative w-40 h-24">
             <Link href="#">
               <Image
                 src="/Assets/webncos-logo-lg.svg"
